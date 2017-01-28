@@ -21,7 +21,7 @@
     #content {
       background-color: rgb(167,213,232);
       border: 10px solid rgb(32,28,133);
-      color: #fff;
+      color: #DEF;
       text-align: center;
       
       position: absolute;
@@ -33,13 +33,20 @@
     }
     
     #content h1 {
-      font-size: 4em;
+      font-size: 3.5rem;
       text-transform: uppercase;
     }
     
     #content a,
     #content a:visited {
       color: #fff;
+      text-decoration: none;
+      font-style: italic;
+      font-size: 4rem;
+    }
+    
+    #content a:hover {
+      text-decoration: underline;
     }
     
     @media (min-width: 640px) {
@@ -61,7 +68,7 @@
 <body>
   <div id="container">
     <div id="content">
-      <h1>We <a href='https://obamawhitehouse.archives.gov/lgbt' target='_blank'>Exist</a>.</h1>
+      <h1>We <a href='https://obamawhitehouse.archives.gov/lgbt'>Exist</a>.</h1>
     </div>
   </div>
 </body>
